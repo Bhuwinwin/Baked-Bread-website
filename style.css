@@ -1,0 +1,158 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+body{
+    background-color: #FFF2CC;
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+}
+
+.logo{
+    width: 130px;
+    text-align: center;
+}
+
+.slogan{
+    color: #DFA67B;
+}
+
+#btn_start{
+    margin-top: 20vh;
+    margin-bottom: 50vh;
+    width: 600px;
+    height: 50px;
+    border: white 1px solid;
+    border-radius: 50px;
+    background-color: #fff4ec;
+    color: #984100;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 20px; 
+    font-weight: 700;
+    transition: 0.5s;
+}
+
+#btn_start:hover {
+    background-color: #984100;
+    color: #DFA67B; 
+}
+
+#btn_start:active {
+    background-color: #DFA67B;
+    color: #984100; 
+}
+
+h3{
+    color: #DFA67B; 
+}
+
+.header{
+    color: #984100;
+}
+
+p{
+    color: #DFA67B;
+    margin-left: 1vh;
+    margin-right: 1vh;
+    margin-bottom: 10vh;
+}
+
+.placeholder{
+    width: 70vw;
+    margin-bottom: 5vh;
+    border-radius: 3vh;
+}
+
+.title-king{
+    margin-top: 5vh;
+    text-align: left;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    color: #984100;
+}
+
+
+.menu_name{
+    text-align: left;
+    color: #984100;
+    font-size: 25px;
+}
+
+.speaking{
+    font-size: 15px;
+    color: #DFA67B;
+}
+
+@media (min-width: 1000px){
+    .preview-container {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        margin-right: 10vw;
+        margin-left: 15vw;
+    }
+    .placeholder{
+        width: 20vw;
+        margin-bottom: 5vh;
+        margin-left: 2vh;
+        margin-right: 2vh;
+        border-radius: 3vh; 
+    }
+    
+    .menu-container {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+    }
+    .container{
+        width: 20vw;
+        margin-bottom: 5vh;
+        margin-left: 10vh;
+        margin-right: 10vh;
+        border-radius: 3vh; 
+    }
+    .Menu{
+        width: 20vw;
+        border-radius: 3vh; 
+    }
+}
+
+.container p {
+    text-align: left;
+}
+
+
+@media (max-width: 1000px){
+    .preview-container {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .menu-container {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+    .Menu{
+        width: 50vw;
+        border-radius: 3vh; 
+    }
+}
+
+.container p {
+    text-align: left;
+}
+
+.p_r{
+    border: white 1px solid;
+    padding: 1vh;
+    background-color: white;
+    width: 40vw;
+    margin-left: auto;
+    margin-right: auto;
+}
